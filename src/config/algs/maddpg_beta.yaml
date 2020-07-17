@@ -1,0 +1,32 @@
+# --- IQL specific parameters ---
+
+# use epsilon greedy action selector
+action_selector: "multinomial"
+epsilon_start: .5
+epsilon_finish: .01
+epsilon_anneal_time: 100000
+mask_before_softmax: False
+
+runner: "parallel"
+batch_size_run: 8
+batch_size: 8
+
+buffer_size: 5000
+
+# update the target network every {} episodes
+target_update_interval: 200
+
+# use the Q_Learner to train
+agent_output_type: "pi_logits"
+learner: "policy_gradient"
+critic: "maddpg"
+mixer: # Mixer becomes None
+tau: 0.01
+td_lambda: #0.8
+# lr: 0.0005
+# critics: 0.005
+
+
+# agent
+agent: "rnn"
+name: 'maddpg_parallel'

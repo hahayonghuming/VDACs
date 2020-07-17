@@ -1,0 +1,32 @@
+env: smart_man
+
+env_args:
+  continuing_episode: False
+  map_name: 26
+  obs_instead_of_state: False
+  obs_last_action: True
+  obs_own_health: True
+  obs_all_health: False
+  obs_all_cost: False
+  obs_own_cost: True
+  obs_timestep_number: False
+  reward_scale: True
+  reward_scale_rate: 2000
+  replay_dir: ""
+  replay_prefix: ""
+  state_last_action: True
+  state_own_cost: True
+  state_profit: True
+  state_timestep_number: False
+  seed: null
+  debug: False
+
+batch_size: 8
+test_greedy: True
+test_nepisode: 100
+test_interval: 10000
+log_interval: 10000
+runner_log_interval: 10000
+learner_log_interval: 10000
+t_max: 2050000
+n_agents: 6
