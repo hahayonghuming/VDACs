@@ -2,33 +2,19 @@
 
 # Python Value-Decomposition Actor-Critics (VDACs)
 
-VDACs is a fork of PyMARL is [WhiRL](http://whirl.cs.ox.ac.uk)'s framework for deep multi-agent reinforcement learning and includes implementations of the following algorithms:
-- [**QMIX**: QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning](https://arxiv.org/abs/1803.11485)
-- [**COMA**: Counterfactual Multi-Agent Policy Gradients](https://arxiv.org/abs/1705.08926)
-- [**VDN**: Value-Decomposition Networks For Cooperative Multi-Agent Learning](https://arxiv.org/abs/1706.05296) 
-- [**IQL**: Independent Q-Learning](https://arxiv.org/abs/1511.08779)
-- [**QTRAN**: QTRAN: Learning to Factorize with Transformation for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/1905.05408)
+VDACs is a fork of [PyMARL](https://github.com/oxwhirl/pymarl/tree/master/src). We added 4 more actor-critics:
+- IAC: [Independent Actor-Critics](https://arxiv.org/abs/1705.08926)
+- Naive Central: Actor-Critic with a Centralized Critic
+- VDAC-sum: Proposed Actor-Critic
+- VDAC-mix: Proposed Actor-Critic
 
 VDACs is written in PyTorch and uses [SMAC](https://github.com/oxwhirl/smac) as its environment.
 
 ## Installation instructions
 
-Build the Dockerfile using 
-```shell
-cd docker
-bash build.sh
-```
+Refer to [PyMARL](https://github.com/oxwhirl/pymarl/tree/master/src) for installation instructions
 
-Set up StarCraft II and SMAC:
-```shell
-bash install_sc2.sh
-```
-
-This will download SC2 into the 3rdparty folder and copy the maps necessary to run over.
-
-The requirements.txt file can be used to install the necessary packages into a virtual environment (not recomended).
-
-## Run an experiment 
+## Run the Proposed Algorithms
 
 ```shell
 python3 src/main.py --config=qmix --env-config=sc2 with env_args.map_name=2s3z
