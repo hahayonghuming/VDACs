@@ -1,6 +1,4 @@
-```diff
-- Dec 4th - Updated to use SMAC V1. 
-```
+
 
 # Python MARL framework
 
