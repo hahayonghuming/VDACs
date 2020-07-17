@@ -9,7 +9,7 @@ VDACs is a fork of PyMARL is [WhiRL](http://whirl.cs.ox.ac.uk)'s framework for d
 - [**IQL**: Independent Q-Learning](https://arxiv.org/abs/1511.08779)
 - [**QTRAN**: QTRAN: Learning to Factorize with Transformation for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/1905.05408)
 
-PyMARL is written in PyTorch and uses [SMAC](https://github.com/oxwhirl/smac) as its environment.
+VDACs is written in PyTorch and uses [SMAC](https://github.com/oxwhirl/smac) as its environment.
 
 ## Installation instructions
 
