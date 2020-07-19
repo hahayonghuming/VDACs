@@ -12,12 +12,20 @@ VDACs is written in PyTorch and uses [SMAC](https://github.com/oxwhirl/smac) as 
 
 ## Installation instructions
 
-Refer to [PyMARL](https://github.com/oxwhirl/pymarl/tree/master/src) for installation instructions
-
+Build the Dockerfile
+```Shell
+cd docker
+bash build.sh
+```
+Set up StarCraft II and SMAC:
+```Shell
+bash install_sc2.sh
+```
+Optionaly, you can use pip to install required packages using the requirement.txt file if you have troubling using docker
 ## Run the Proposed Algorithms
 
 ```shell
-python3 src/main.py --config=qmix --env-config=sc2 with env_args.map_name=2s3z
+python3 src/main.py --config=vmix_a2c --env-config=sc2 with env_args.map_name=2s3z
 ```
 
 The config files act as defaults for an algorithm or environment. 
@@ -28,19 +36,17 @@ They are all located in `src/config`.
 
 To run experiments using the Docker container:
 ```shell
-bash run.sh $GPU python3 src/main.py --config=qmix --env-config=sc2 with env_args.map_name=2s3z
+bash run.sh $GPU python3 src/main.py --config=vmix_a2c --env-config=sc2 with env_args.map_name=2s3z
 ```
 
 All results will be stored in the `Results` folder.
 
-The previous config files used for the SMAC Beta have the suffix `_beta`.
 
 ## Saving and loading learnt models
 
 ### Saving models
 
-You can save the learnt models to disk by setting `save_model = True`, which is set to `False` by default. The frequency of saving models can be adjusted using `save_model_interval` configuration. Models will be saved in the result directory, under the folder called *models*. The directory corresponding each run will contain models saved throughout the experiment, each within a folder corresponding to the number of timesteps passed since starting the learning process.
-
+You can save the learnt models to disk by setting `save_model = True`, which is set to `False` by default. The frequency of saving models can be adjusted using `save_model_interval` configuration. Models will be saved in the result directory, under the folder called *models*.
 ### Loading models
 
 Learnt models can be loaded using the `checkpoint_path` parameter, after which the learning will proceed from the corresponding timestep. 
@@ -49,17 +55,11 @@ Learnt models can be loaded using the `checkpoint_path` parameter, after which t
 
 `save_replay` option allows saving replays of models which are loaded using `checkpoint_path`. Once the model is successfully loaded, `test_nepisode` number of episodes are run on the test mode and a .SC2Replay file is saved in the Replay directory of StarCraft II. Please make sure to use the episode runner if you wish to save a replay, i.e., `runner=episode`. The name of the saved replay file starts with the given `env_args.save_replay_prefix` (map_name if empty), followed by the current timestamp. 
 
-The saved replays can be watched by double-clicking on them or using the following command:
+The saved replays can be watched by simply double-clicking on them 
 
-```shell
-python -m pysc2.bin.play --norender --rgb_minimap_size 0 --replay NAME.SC2Replay
-```
+**Note:** Replays cannot be watched using the Linux version of StarCraft II. Please use either the Mac or Windows version of the StarCraft II client. For Windows users who has problem openning replay files, you might need to download a free-trial StarCraft II under the directory 
 
-**Note:** Replays cannot be watched using the Linux version of StarCraft II. Please use either the Mac or Windows version of the StarCraft II client.
 
-## Documentation/Support
-
-Documentation is a little sparse at the moment (but will improve!). Please raise an issue in this repo, or email [Tabish](mailto:tabish.rashid@cs.ox.ac.uk)
 
 ## Citing PyMARL 
 
