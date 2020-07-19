@@ -4,7 +4,7 @@
 
 VDACs is a fork of [PyMARL](https://github.com/oxwhirl/pymarl/tree/master/src). We added 4 more actor-critics:
 - IAC: [Independent Actor-Critics](https://arxiv.org/abs/1705.08926)
-- Naive Central: Actor-Critic with a Centralized Critic
+- Naive Critic: Actor-Critic with a Centralized Critic
 - VDAC-sum: Proposed Actor-Critic
 - VDAC-mix: Proposed Actor-Critic
 
