@@ -57,7 +57,7 @@ Learnt models can be loaded using the `checkpoint_path` parameter, after which t
 
 **Note:** Replays cannot be watched using the Linux version of StarCraft II. Please use either the Mac or Windows version of the StarCraft II client. For Windows users who has problem openning replay files, you might need to download a free-trial StarCraft II under the directory 
 
-![Image of 1c3s5z](https://github.com/hahayonghuming/VDACs/blob/master/replays/1c3s5z.gif=250x)
+![Image of 1c3s5z](https://github.com/hahayonghuming/VDACs/blob/master/replays/1c3s5z.gif)
 ![Image of 3s5z](https://github.com/hahayonghuming/VDACs/blob/master/replays/3s5z.gif)
 ![Image of 2s3z](https://github.com/hahayonghuming/VDACs/blob/master/replays/2s3z.gif)
 ![Image of 8m](https://github.com/hahayonghuming/VDACs/blob/master/replays/8m.gif)
