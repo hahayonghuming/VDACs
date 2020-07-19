@@ -59,9 +59,10 @@ Learnt models can be loaded using the `checkpoint_path` parameter, after which t
 
 
 
-## Citing PyMARL 
+## Citation
 
-If you use PyMARL in your research, please cite the [SMAC paper](https://arxiv.org/abs/1902.04043).
+If you this repository useful, please cite the following papers:
+[SMAC paper](https://arxiv.org/abs/1902.04043).
 
 *M. Samvelyan, T. Rashid, C. Schroeder de Witt, G. Farquhar, N. Nardelli, T.G.J. Rudner, C.-M. Hung, P.H.S. Torr, J. Foerster, S. Whiteson. The StarCraft Multi-Agent Challenge, CoRR abs/1902.04043, 2019.*
 
@@ -77,9 +78,7 @@ In BibTeX format:
 }
 ```
 
-## Citing VDACs 
-
-If you use VDACs in your research, please cite the [SMAC paper](https://arxiv.org/abs/1902.04043).
+ [SMAC paper](https://arxiv.org/abs/1902.04043).
 
 *M. Samvelyan, T. Rashid, C. Schroeder de Witt, G. Farquhar, N. Nardelli, T.G.J. Rudner, C.-M. Hung, P.H.S. Torr, J. Foerster, S. Whiteson. The StarCraft Multi-Agent Challenge, CoRR abs/1902.04043, 2019.*
 
