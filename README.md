@@ -42,6 +42,7 @@ bash run.sh $GPU python3 src/main.py --config=vmix_a2c --env-config=sc2 with env
 All results will be stored in the `Results` folder.
 
 ## Training Results
+### 1c3s5z
 ![Image of 1c3s5z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/1c3s5z(1).png)
 
 
