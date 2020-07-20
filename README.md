@@ -42,7 +42,7 @@ bash run.sh $GPU python3 src/main.py --config=vmix_a2c --env-config=sc2 with env
 All results will be stored in the `Results` folder.
 
 ## Training Results
-5 independent experiments are conducted for each algorithm on each map. The solid line denotes the medium of the win rate and the shade represent the 25-75% percentile. The black dash line represents the win rates of a heurist ai. 
+5 independent experiments are conducted for each algorithm on each map. Colored Solid lines denotes the medium of the win rate and shades represent the 25-75% percentile. The black dash line represents the win rates of a heurist ai. 
 ### 1c3s5z
 ![Image of 1c3s5z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/1c3s5z(1).png)
 ### 3s5z
