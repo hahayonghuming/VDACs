@@ -44,15 +44,15 @@ All results will be stored in the `Results` folder.
 ## Training Results
 ### 1c3s5z
 ![Image of 1c3s5z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/1c3s5z(1).png)
-### 1c3s5z
+### 3s5z
 ![Image of 3s5z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/3s5z(1).png)
-### 1c3s5z
+### 2s3z
 ![Image of 2s3z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/2s3z(1).png)
-### 1c3s5z
+### 8m
 ![Image of 8m](https://github.com/hahayonghuming/VDACs/blob/master/train_results/8m(1).png)
-### 1c3s5z
+### bane_vs_bane
 ![Image of bane_vs_bane](https://github.com/hahayonghuming/VDACs/blob/master/train_results/bane_vs_bane(1).png)
-### 1c3s5z
+### 2s_vs_1sc
 ![Image of 2s_vs_1sc](https://github.com/hahayonghuming/VDACs/blob/master/train_results/2s_vs_1sc(1).png)
 
 
