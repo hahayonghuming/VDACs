@@ -30,7 +30,9 @@ Value-decompostion actor-critic (VDAC) is based on three main ideas:
 
 Two VDAC algorithms are proposed:
 - **VDAC-sum** simply assumes the global state-value is a summation of local state-values
+![Image of vdnac](https://github.com/hahayonghuming/VDACs/blob/master/train_results/VDN_structure.jpg)
 - **VDAC-mix** utilizes a non-negative network as an non-linear function approximator to represent a broader class of functions
+![Image of vmixac](https://github.com/hahayonghuming/VDACs/blob/master/train_results/Vmix.jpg)
 
 ## Run the Proposed Algorithms
 
