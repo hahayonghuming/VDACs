@@ -23,7 +23,7 @@ bash install_sc2.sh
 ```
 Optionaly, you can use pip to install required packages using the requirement.txt file if you have troubling using docker
 ## Proposed Algorithms
-Value-decompostion actor-critic (VDAC) is based on three main ideas:
+Value-decompostion actor-critic (VDAC) follows an actor-critic approach and is based on three main ideas:
 - It is compatible with [A2C](https://arxiv.org/abs/1602.01783), which is proposed to promote RL's training efficiency
 - Similar to [QMIX](https://arxiv.org/abs/1803.11485), VDAC enforces the monotonic relationship between global state-value and local state-values $\frac{V_{tot}}{V^a}\geq 0, \forall a \in {0,\dots,n}$, which is related to [*difference rewards*](https://pdfs.semanticscholar.org/f5bc/d981ac0cee7e0ba94e738702b30a065ec4d5.pdf)
 - VDAC utilize a simple temporal difference (TD) advantage policy gradient. Both [COMA](https://arxiv.org/abs/1705.08926) advantage gradient and TD advantage gradient are unbiased estimates of a vanilla policy gradient. However, our StarCraft testbed results (comparison between **naive critic** and **COMA**) favors TD advantage over COMA advantage.
