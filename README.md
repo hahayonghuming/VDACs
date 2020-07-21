@@ -5,8 +5,8 @@
 VDACs is a fork of [PyMARL](https://github.com/oxwhirl/pymarl/tree/master/src). We added 4 more actor-critics:
 - IAC: [Independent Actor-Critics](https://arxiv.org/abs/1705.08926)
 - Naive Critic: Actor-Critic with a Centralized Critic
-- VDAC-sum: Proposed Actor-Critic
-- VDAC-mix: Proposed Actor-Critic
+- **VDAC-sum**: Proposed Actor-Critic
+- **VDAC-mix**: Proposed Actor-Critic
 
 VDACs is written in PyTorch and uses [SMAC](https://github.com/oxwhirl/smac) as its environment.
 
@@ -25,12 +25,12 @@ Optionaly, you can use pip to install required packages using the requirement.tx
 ## Proposed Algorithms
 Value-decompostion actor-critic (VDAC) is based on three main ideas:
 - It is compatible with [A2C](https://arxiv.org/abs/1602.01783), which is proposed to promote RL's training efficiency
-- Similar to [QMIX](https://arxiv.org/abs/1803.11485), VDAC enforces the monotonic relationship between global state-value and local state-values $\frac{V_{tot}}{V^a}\geq 0, \forall a \in {0,\dots,n}$, which is related to [difference rewards](https://pdfs.semanticscholar.org/f5bc/d981ac0cee7e0ba94e738702b30a065ec4d5.pdf)
-- VDAC utilize a simple temporal difference (TD) advantage policy gradient. Both [COMA](https://arxiv.org/abs/1705.08926) advantage gradient and temporal difference advantage gradient are unbiased estimates of a vanilla policy gradient. However, our StarCraft testbed results (comparison between naive critic and COMA) favors TD advantage over COMA advantage.
+- Similar to [QMIX](https://arxiv.org/abs/1803.11485), VDAC enforces the monotonic relationship between global state-value and local state-values $\frac{V_{tot}}{V^a}\geq 0, \forall a \in {0,\dots,n}$, which is related to [*difference rewards*](https://pdfs.semanticscholar.org/f5bc/d981ac0cee7e0ba94e738702b30a065ec4d5.pdf)
+- VDAC utilize a simple temporal difference (TD) advantage policy gradient. Both [COMA](https://arxiv.org/abs/1705.08926) advantage gradient and TD advantage gradient are unbiased estimates of a vanilla policy gradient. However, our StarCraft testbed results (comparison between naive critic and COMA) favors TD advantage over COMA advantage.
 
 Two VDAC algorithms are proposed:
-- VDAC-sum simply assume the global state-value is a summation of local state-values
-- VDAC-mix utilize a non-negative network as an non-linear function approximator to represent a broader class of functions
+- **VDAC-sum** simply assume the global state-value is a summation of local state-values
+- **VDAC-mix** utilize a non-negative network as an non-linear function approximator to represent a broader class of functions
 
 ## Run the Proposed Algorithms
 
