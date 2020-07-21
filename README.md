@@ -29,9 +29,9 @@ Value-decompostion actor-critic (VDAC) follows an actor-critic approach and is b
 - VDAC utilize a simple temporal difference (TD) advantage policy gradient. Both [COMA](https://arxiv.org/abs/1705.08926) advantage gradient and TD advantage gradient are unbiased estimates of a vanilla policy gradient. However, our StarCraft testbed results (comparison between **naive critic** and **COMA**) favors TD advantage over COMA advantage
 
 Two VDAC algorithms are proposed:
-- **VDAC-sum** simply assumes the global state-value is a summation of local state-values
+- **VDAC-sum** simply assumes the global state-value is a summation of local state-values. VDAC-sum does not take advantage of extra state information and shares a similar structure to IAC
 ![Image of vdnac](https://github.com/hahayonghuming/VDACs/blob/master/train_results/VDN_structure.jpg)
-- **VDAC-mix** utilizes a non-negative network as an non-linear function approximator to represent a broader class of functions
+- **VDAC-mix** utilizes a non-negative mixing network as an non-linear function approximator to represent a broader class of functions. The parameters in the mixing network is outputted by a set of hypernetworks, which take input as global states. Therefore, VDAC-mix is capable of incorporating extra state information 
 ![Image of vmixac](https://github.com/hahayonghuming/VDACs/blob/master/train_results/Vmix.jpg)
 
 ## Run the Proposed Algorithms
