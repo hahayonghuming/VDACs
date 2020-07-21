@@ -35,9 +35,14 @@ Two VDAC algorithms are proposed:
 ![Image of vmixac](https://github.com/hahayonghuming/VDACs/blob/master/train_results/Vmix.jpg)
 
 ## Run the Proposed Algorithms
+### Run VDAC-mix
 
 ```shell
 python3 src/main.py --config=vmix_a2c --env-config=sc2 with env_args.map_name=2s3z
+```
+### Run VDAC-sum
+```shell
+python3 src/main.py --config=vdn_a2c --env-config=sc2 with env_args.map_name=2s3z
 ```
 
 The config files act as defaults for an algorithm or environment. 
