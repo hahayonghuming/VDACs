@@ -90,7 +90,7 @@ Learnt models can be loaded using the `checkpoint_path` parameter, after which t
 
 **Note:** Replays cannot be watched using the Linux version of StarCraft II. Please use either the Mac or Windows version of the StarCraft II client. For Windows users who has problem openning replay files, you might need to download a free-trial StarCraft II under the directory ```C:\Program Files (x86)\StarCraft II```
 
-**Description:** Red Units are controlled by VDAC-mix and the blue ones are controlled by build-in ai which is set to difficulty level 7. Strategies, such as focusing fires on enemies, zealots tend to attack stalkers, can be spotted in replays.
+**Description:** Red Units are controlled by **VDAC-mix** and blue ones are controlled by build-in ai which is set to difficulty level 7. Strategies, such as focusing fires on enemies, zealots tend to attack stalkers, can be spotted in replays.
 ### 1c3s5z
 ![Image of 1c3s5z](https://github.com/hahayonghuming/VDACs/blob/master/replays/1c3s5z.gif)
 ### 3s5z
