@@ -89,6 +89,8 @@ Learnt models can be loaded using the `checkpoint_path` parameter, after which t
 `save_replay` option allows saving replays of models which are loaded using `checkpoint_path`. Once the model is successfully loaded, `test_nepisode` number of episodes are run on the test mode and a .SC2Replay file is saved in the Replay directory of StarCraft II. Please make sure to use the episode runner if you wish to save a replay, i.e., `runner=episode`. The name of the saved replay file starts with the given `env_args.save_replay_prefix` (map_name if empty), followed by the current timestamp. The saved replays can be watched by simply double-clicking on them.
 
 **Note:** Replays cannot be watched using the Linux version of StarCraft II. Please use either the Mac or Windows version of the StarCraft II client. For Windows users who has problem openning replay files, you might need to download a free-trial StarCraft II under the directory ```C:\Program Files (x86)\StarCraft II```
+
+**Description:** Red Units are controlled by VDAC-mix and the blue ones are controlled by build-in ai which is set to difficulty level 7. Strategies, such as focusing fires on enemies, zealots tend to attack stalkers, can be spotted in replays.
 ### 1c3s5z
 ![Image of 1c3s5z](https://github.com/hahayonghuming/VDACs/blob/master/replays/1c3s5z.gif)
 ### 3s5z
