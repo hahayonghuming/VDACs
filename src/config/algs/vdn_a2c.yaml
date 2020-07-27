@@ -40,4 +40,4 @@ hypernet_embed: 64
 mac: "ppo_mac"
 agent: "rnn_ppo"
 
-name: "vmix_pg_a2c"
+name: "vdn_pg_a2c"
