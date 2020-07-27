@@ -137,6 +137,3 @@ If you this repository useful, please cite the following papers:
 }
 ```
 
-## License
-
-Code licensed under the Apache License v2.0
