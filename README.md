@@ -108,19 +108,20 @@ Learnt models can be loaded using the `checkpoint_path` parameter, after which t
 ## Citation
 
 If you this repository useful, please cite the following papers:
-[SMAC paper](https://arxiv.org/abs/1902.04043).
+[VDAC paper](https://arxiv.org/abs/2007.12306).
 
 *M. Samvelyan, T. Rashid, C. Schroeder de Witt, G. Farquhar, N. Nardelli, T.G.J. Rudner, C.-M. Hung, P.H.S. Torr, J. Foerster, S. Whiteson. The StarCraft Multi-Agent Challenge, CoRR abs/1902.04043, 2019.*
 
 In BibTeX format:
 
 ```tex
-@article{samvelyan19smac,
-  title = {{The} {StarCraft} {Multi}-{Agent} {Challenge}},
-  author = {Mikayel Samvelyan and Tabish Rashid and Christian Schroeder de Witt and Gregory Farquhar and Nantas Nardelli and Tim G. J. Rudner and Chia-Man Hung and Philiph H. S. Torr and Jakob Foerster and Shimon Whiteson},
-  journal = {CoRR},
-  volume = {abs/1902.04043},
-  year = {2019},
+@misc{su2020valuedecomposition,
+    title={Value-Decomposition Multi-Agent Actor-Critics},
+    author={Jianyu Su and Stephen Adams and Peter A. Beling},
+    year={2020},
+    eprint={2007.12306},
+    archivePrefix={arXiv},
+    primaryClass={cs.AI}
 }
 ```
 
