@@ -110,7 +110,7 @@ Learnt models can be loaded using the `checkpoint_path` parameter, after which t
 
 
 ## Documentation
-This repo is still development. If you have any questions or concerns, please email [Jianyu](js9wv@virginia.edu) 
+This repo is still under development. If you have any questions or concerns, please email [Jianyu](js9wv@virginia.edu) 
 
 ## Citation
 
