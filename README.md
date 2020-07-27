@@ -12,6 +12,7 @@ VDACs is written in PyTorch and uses [SMAC](https://github.com/oxwhirl/smac) as 
 
 ## Installation instructions
 The orginal repository [PyMARL](https://github.com/oxwhirl/pymarl) uses docker to manage the virtual environment. We utilize conda in our implementation:
+
 Create and activate conda virtual environment
 ```Shell
 conda create --name pymal python=3.5 
