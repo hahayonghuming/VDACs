@@ -2,7 +2,7 @@
 
 # Python Value-Decomposition Actor-Critics (VDACs)
 
-VDACs is a fork of [PyMARL](https://github.com/oxwhirl/pymarl/tree/master/src). We added 4 more actor-critics:
+VDACs is a fork of [PyMARL](https://github.com/oxwhirl/pymarl). We added 4 more actor-critics:
 - IAC: [Independent Actor-Critics](https://arxiv.org/abs/1705.08926)
 - **Naive Critic**: Actor-Critic with a Centralized Critic
 - **VDAC-sum**: Proposed Actor-Critic
@@ -11,17 +11,21 @@ VDACs is a fork of [PyMARL](https://github.com/oxwhirl/pymarl/tree/master/src). 
 VDACs is written in PyTorch and uses [SMAC](https://github.com/oxwhirl/smac) as its environment.
 
 ## Installation instructions
-
-Build the Dockerfile
+The orginal repository [PyMARL](https://github.com/oxwhirl/pymarl) uses docker to manage the virtual environment. We utilize conda in our implementation:
+Create and activate conda virtual environment
 ```Shell
-cd docker
-bash build.sh
+conda create --name pymal python=3.5 
+source activate pymarl
+```
+Install required packages:
+```Shell
+pip -r install requirements.txt
 ```
 Set up StarCraft II and SMAC:
 ```Shell
 bash install_sc2.sh
 ```
-Optionaly, you can use pip to install required packages using the requirement.txt file if you have troubling using docker
+
 ## Proposed Algorithms
 Value-decompostion actor-critic (VDAC) follows an actor-critic approach and is based on three main ideas:
 - It is compatible with [A2C](https://arxiv.org/abs/1602.01783), which is proposed to promote RL's training efficiency
