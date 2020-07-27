@@ -15,6 +15,7 @@ The orginal repository [PyMARL](https://github.com/oxwhirl/pymarl) uses docker t
 
 Create and activate conda virtual environment
 ```Shell
+cd VDACs
 conda create --name pymal python=3.5 
 source activate pymarl
 ```
