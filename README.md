@@ -109,7 +109,8 @@ Learnt models can be loaded using the `checkpoint_path` parameter, after which t
 ![Image of bane_vs_bane](https://github.com/hahayonghuming/VDACs/blob/master/replays/bane_vs_bane.gif)
 
 
-
+## Documentation
+This repo is still development. If you have any questions or concerns, please email [Jianyu](js9wv@virginia.edu) 
 
 ## Citation
 
