@@ -115,6 +115,7 @@ This repo is still under development. If you have any questions or concerns, ple
 ## Citation
 
 If you this repository useful, please cite the following papers:
+
 [VDAC paper](https://arxiv.org/abs/2007.12306).
 
 ```tex
