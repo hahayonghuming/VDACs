@@ -110,10 +110,6 @@ Learnt models can be loaded using the `checkpoint_path` parameter, after which t
 If you this repository useful, please cite the following papers:
 [VDAC paper](https://arxiv.org/abs/2007.12306).
 
-*M. Samvelyan, T. Rashid, C. Schroeder de Witt, G. Farquhar, N. Nardelli, T.G.J. Rudner, C.-M. Hung, P.H.S. Torr, J. Foerster, S. Whiteson. The StarCraft Multi-Agent Challenge, CoRR abs/1902.04043, 2019.*
-
-In BibTeX format:
-
 ```tex
 @misc{su2020valuedecomposition,
     title={Value-Decomposition Multi-Agent Actor-Critics},
@@ -126,10 +122,6 @@ In BibTeX format:
 ```
 
  [SMAC paper](https://arxiv.org/abs/1902.04043).
-
-*M. Samvelyan, T. Rashid, C. Schroeder de Witt, G. Farquhar, N. Nardelli, T.G.J. Rudner, C.-M. Hung, P.H.S. Torr, J. Foerster, S. Whiteson. The StarCraft Multi-Agent Challenge, CoRR abs/1902.04043, 2019.*
-
-In BibTeX format:
 
 ```tex
 @article{samvelyan19smac,
