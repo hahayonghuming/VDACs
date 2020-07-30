@@ -67,7 +67,7 @@ All results will be stored in the `Results` folder.
 ## Training Results
 5 independent experiments are conducted for each algorithm on each map. Colored Solid lines denotes the median of the win rate and shades represent the 25-75% percentile. The black dash line represents the win rates of a heurist ai. (My experiments are conducted on a RTX 2080 Ti GPU)
 
-***Note:*** We find that ***VDAC***s are sensitive to `v_coef` located in `src/config`. This value penalizes critic losses. In our orignial implementation, we set `v_coef=0.5`. However, we later find that `v_coef=0.1` yields better performance.
+**Note:** We find that **VDAC**s are sensitive to `v_coef` located in `src/config`. This value penalizes critic losses. In our orignial implementation, we set `v_coef=0.5`. However, we later find that `v_coef=0.1` yields better performance.
 ### 1c3s5z
 ![Image of 1c3s5z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/1c3s5zfinal.png)
 ### 3s5z
