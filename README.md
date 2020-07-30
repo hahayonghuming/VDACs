@@ -69,7 +69,7 @@ All results will be stored in the `Results` folder.
 
 ***Note:*** We find that ***VDAC***s are sensitive to `v_coef` located in `src/config`. This value penalizes critic losses. In our orignial implementation, we set `v_coef=0.5`. However, we later find that `v_coef=0.1` yields better performance.
 ### 1c3s5z
-![Image of 1c3s5z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/1c3s5z(1).png)
+![Image of 1c3s5z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/1c3s5zfinal.png)
 ### 3s5z
 ![Image of 3s5z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/3s5zfinal.png)
 ### 2s3z
