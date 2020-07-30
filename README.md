@@ -71,9 +71,9 @@ All results will be stored in the `Results` folder.
 ### 1c3s5z
 ![Image of 1c3s5z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/1c3s5z(1).png)
 ### 3s5z
-![Image of 3s5z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/3s5z(1).png)
+![Image of 3s5z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/3s5z.png)
 ### 2s3z
-![Image of 2s3z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/2s3z(1).png)
+![Image of 2s3z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/2s3zfinal.png)
 ### 8m
 ![Image of 8m](https://github.com/hahayonghuming/VDACs/blob/master/train_results/8m(1).png)
 ### bane_vs_bane
