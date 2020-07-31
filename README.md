@@ -57,10 +57,6 @@ They are all located in `src/config`.
 `--config` refers to the config files in `src/config/algs`
 `--env-config` refers to the config files in `src/config/envs`
 
-To run experiments using the Docker container:
-```shell
-bash run.sh $GPU python3 src/main.py --config=vmix_a2c --env-config=sc2 with env_args.map_name=2s3z
-```
 
 All results will be stored in the `Results` folder.
 
