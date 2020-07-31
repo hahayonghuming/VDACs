@@ -121,10 +121,12 @@ If you this repository useful, please cite the following papers:
 [VDAC paper](https://arxiv.org/abs/2007.12306).
 
 ```tex
-@inproceedings{Su2020ValueDecompositionMA,
+@article{Su2020ValueDecompositionMA,
   title={Value-Decomposition Multi-Agent Actor-Critics},
   author={Jianyu Su and Stephen Adams and Peter A. Beling},
-  year={2020}
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2007.12306}
 }
 ```
 
