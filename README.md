@@ -71,11 +71,11 @@ All results will be stored in the `Results` folder.
 ### 2s3z
 ![Image of 2s3z](https://github.com/hahayonghuming/VDACs/blob/master/train_results/2s3zfinal.png)
 ### 8m
-![Image of 8m](https://github.com/hahayonghuming/VDACs/blob/master/train_results/8m(1).png)
+![Image of 8m](https://github.com/hahayonghuming/VDACs/blob/master/train_results/8mfinal.png)
 ### bane_vs_bane
-![Image of bane_vs_bane](https://github.com/hahayonghuming/VDACs/blob/master/train_results/bane_vs_bane(1).png)
+![Image of bane_vs_bane](https://github.com/hahayonghuming/VDACs/blob/master/train_results/bane_vs_banefinal.png)
 ### 2s_vs_1sc
-![Image of 2s_vs_1sc](https://github.com/hahayonghuming/VDACs/blob/master/train_results/2s_vs_1sc(1).png)
+![Image of 2s_vs_1sc](https://github.com/hahayonghuming/VDACs/blob/master/train_results/2s_vs_1scfinal.png)
 
 
 
