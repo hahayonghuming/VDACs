@@ -1,3 +1,4 @@
+# QMIX that utilizes A2C training paradigm
 # --- QMIX specific parameters ---
 
 # use epsilon greedy action selector
