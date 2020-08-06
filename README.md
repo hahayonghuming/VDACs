@@ -50,7 +50,23 @@ python3 src/main.py --config=vmix_a2c --env-config=sc2 with env_args.map_name=2s
 ```shell
 python3 src/main.py --config=vdn_a2c --env-config=sc2 with env_args.map_name=2s3z
 ```
-
+## Run comparison experiments
+### Run Naive Critic
+```shell
+python3 src/main.py --config=central_critic --env-config=sc2 with env_args.map_name=2s3z
+```
+## Run original QMIX
+```shell
+python3 src/main.py --config=qmix --env-config=sc2 with env_args.map_name=2s3z
+```
+## Run QMIX with A2C training Paradigm
+```shell
+python3 src/main.py --config=qmix_beta --env-config=sc2 with env_args.map_name=2s3z
+```
+## Run COMA
+```shell
+python3 src/main.py --config=coma --env-config=sc2 with env_args.map_name=2s3z
+```
 The config files act as defaults for an algorithm or environment. 
 
 They are all located in `src/config`.
