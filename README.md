@@ -18,6 +18,8 @@ Create and activate conda virtual environment
 cd VDACs
 conda create --name pymarl python=3.5 
 source activate pymarl
+git clone git@github.com:hahayonghuming/VDACs.git
+cd VDACs
 ```
 Install required packages:
 ```Shell
