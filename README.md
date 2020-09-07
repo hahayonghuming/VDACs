@@ -63,7 +63,7 @@ python3 src/main.py --config=qmix --env-config=sc2 with env_args.map_name=2s3z
 ```
 ### Run QMIX with A2C training Paradigm
 ```shell
-python3 src/main.py --config=qmix_beta --env-config=sc2 with env_args.map_name=2s3z
+python3 src/main.py --config=qmix_a2c --env-config=sc2 with env_args.map_name=2s3z
 ```
 ### Run COMA
 ```shell
