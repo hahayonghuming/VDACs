@@ -23,7 +23,7 @@ cd VDACs
 ```
 Install required packages:
 ```Shell
-pip -r install requirements.txt
+pip install -r requirements.txt
 ```
 Set up StarCraft II and SMAC:
 ```Shell
